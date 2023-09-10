@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-guru</title>
+</head>
+<style>
+    body{
+        background-color:white;
+    }
+    .header{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        height: 100px;
+    }
+    .ul{
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+    .ul>li{
+        margin: 0  20px;
+        list-style: none;
+        
+    }
+    .ul>li>a{
+        
+        text-decoration: none;
+        color:rgba(99, 104, 107, 0.505);
+        
+    }
+    .ul>li> :hover{
+        color:orange;
+        
+    }
+.header-ele{
+display: flex;
+flex-wrap: wrap;
+}
+.header-ele >img{
+margin-top: 13px;
+}
+.header-ele >button{
+    margin-top: 13px;
+width: 100px;
+height: 30px;
+}
+.main{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+.left{
+    width: 50%;
+
+}
+.left .para{
+    color: rgb(132, 106, 106);
+    width: 250px;
+}
+
+/* .left .para1{
+    color: rgb(132, 106, 106);
+} */
+.getstart{
+    background-color: rgb(236, 90, 11);
+    color: aliceblue ;
+    width: 100px;
+    height: 30px;
+    border: 2px solid rgb(236, 90, 11);
+}
+.learn-more{
+width: 100px;
+height: 30px;
+}
+.right{
+    right: 50%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.bg
+{
+position: absolute;
+margin-right: 40px;
+margin-top: 50px;
+}
+.green{
+    position: absolute;
+margin-top: 250px;
+margin-right: 400px;
+width: 23px;
+}
+.orange{
+    position: absolute;
+margin-top: -200px;
+margin-right: 400px;
+width: 23px;
+}
+.curve{
+position: absolute;
+margin-top: 250px;
+margin-right: 550px;
+width: 60px;
+}
+.imgfront
+{
+position: absolute;
+margin-right: 40px;
+margin-top: 45px;
+
+
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: aliceblue;
+    margin-top: 130px;
+    background-color: rgb(5, 5, 56);
+    height: 200px;
+    /* width: 100vw; */
+}
+.footer1
+{
+    text-align: center;
+    margin-top: 40px;
+
+}
+.footer2
+{
+    text-align: center;
+    margin-top: 40px;
+}
+.footer3
+{
+    text-align: center;
+    margin-top: 40px;
+}
+.footer4
+{
+    text-align: center;
+    margin-top: 40px;
+}
+.footer1>h1
+{
+    font-size: 20px;
+}
+.footer1>p
+{
+    font-size: 15px;
+color: rgb(208, 215, 222);
+}
+.footer1>p
+{
+    font-size: 15px;
+color: rgb(208, 215, 222);
+}
+.footer2>p
+{
+    font-size: 15px;
+color: rgb(208, 215, 222);
+}
+.footer3>p
+{
+    font-size: 15px;
+color: rgb(208, 215, 222);
+}
+.footer4>p
+{
+    font-size: 15px;
+color: rgb(208, 215, 222);
+}
+.expert{
+    margin-left: 70px;
+    background-color: rgb(99, 188, 99);
+    border-radius: 5px;
+    width: 40px;
+}
+.online{
+    margin-left: 70px;
+    background-color:orangered;
+    width: 40px;
+    border-radius: 5px;
+}
+.su{
+    margin-left: 67px;
+    background-color: rgb(94, 94, 227);
+    width: 40px;
+    border-radius: 5px;
+}
+</style>
+<body>
+    <header class="header">
+   <div class="header-ele"><img src="./logo.png" alt="" height="30px">
+    <h5>E-GURU</h5></div>
+   <div class="header-ele"><ul class="ul">
+    <li class="item"><a href="/">Home</a></li>
+    <li class="item"><a href="/">About us</a></li>
+    <li class="item"><a href="/">Feature</a></li>
+    <li class="item"><a href="/">How it work</a></li>
+   </ul></div>
+   <div class="header-ele"> <button class="button">Sign up</button></div>
+    </header>
+   <main class="main">
+    <div class="left">
+        <div class="first"><h1>STUDY FROM</h1></div>
+        <div class="second"><h1>HOME WITH EXPERT</h1></div>
+        <p class="para">A learning system based on formalised teching with the help of resource </p>
+        <!-- <p class="para1">teching with the help of resource</p> -->
+        <div class="button-main">
+            <button class="getstart">Get Login</button>
+            <button class="learn-more">Learn More</button>
+        </div>
+    </div>
+    <div class="right"> <img  class="bg" src="./main-image-bg.png" alt="" width="250px">
+        <img  class="imgfront"  src="./main-image.png" alt="" width="170px">
+        <img class="green" src="./green-arrow.png" alt="" width="">
+        <img class="orange" src="./orange-arrow.png" alt="" width="">
+        <img class="curve" src="./curve-arrow.png" alt="" width="">
+        </div>
+   </main> 
+   <footer class="footer">
+    <div class="footer1"><h1>WHY WE ARE BEST</h1>
+    <p>A learning system based on formalised with the help..</p></div>
+    <div class="footer2"> <div class="expert" ><img class="exert-techer" src="./vector3.png" alt=""></div>
+    <p>EXPERT TEACHER</p>
+      <P>A learning system based on formalised with</P></div>
+    <div class="footer3"> <div class="online"> <img  class="online-course" src="./vector2.png" alt=""></div>
+        <p>ONLINE COURSE</p>
+        <P>A learning system based on formalised with</P></div>
+    <div class="footer4"> <div class="su"> <img class="24/7"  src="./vector1.png" alt=""></div>
+        <p>24/7 SUPPORT</p>
+        <P>A learning system based on formalised with</P></div>
+   </footer>
+</body>
+</html>
